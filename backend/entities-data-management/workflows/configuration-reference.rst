@@ -738,7 +738,7 @@ Event trigger configuration has the next options.
                             field: status                                       # updated field
                             queued: false                                       # handle trigger not in queue
                             relation: call                                      # relation to Workflow entity
-                            require: "entity.status = 'pending'"                # expression language condition
+                            require: "entity.status == 'pending'"                # expression language condition
 
 
 Cron Trigger
